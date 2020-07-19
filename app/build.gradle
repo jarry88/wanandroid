@@ -11,6 +11,7 @@ apply from: '../test_dependencies.gradle'
 
 android {
     compileSdkVersion Versions.compileSdk
+    ndkVersion "major.minor.build"
     defaultConfig {
         applicationId "luyao.wanandroid"
         minSdkVersion Versions.minSdk
